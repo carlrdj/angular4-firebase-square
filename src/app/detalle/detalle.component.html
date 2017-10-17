@@ -1,0 +1,33 @@
+<!--
+<h1>Detalle de : {{id}}</h1>
+<h1>Detalle de : {{action2}}</h1>
+<h1>Detalle de : {{action3}}</h1>
+-->
+<div class="container">
+	<div class="well">
+		<a routerLink="/lugares">Lugares</a>
+		/
+		{{lugar.nombre}}
+	</div>
+	<div class="row">
+		<div class="col-md-8">
+			<div class="container-white">
+				<h1>{{lugar.nombre}}</h1>
+				<hr>
+				<small>{{lugar.distancia}} Km</small>
+				<br>
+				<div>
+					<p>
+						{{lugar.descripcion}}
+					</p>
+					<b>
+						{{lugar.plan}}
+					</b>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	
+</div>

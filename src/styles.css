@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+agm-map {
+  height: 300px;
+}
+.numero_par{
+	font-style: italic;
+	font-weight: bold;
+}
+body{
+	background-image: url('./assets/image/background/background.jpg'); 
+	background-size: cover;
+}
+.container-white{
+	background-color: rgba(255,255,255,.9); 
+	padding: 30px;
+}
+
+
+#cuadrado{
+	width: 200px;
+	height: 200px;
+	background: red;
+}
+
+.padding{
+	padding: 10px;
+	margin-bottom: 10px;
+}
